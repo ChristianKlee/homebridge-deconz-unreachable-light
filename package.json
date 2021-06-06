@@ -1,7 +1,7 @@
 {
   "displayName": "Homebridge Deconz unreachable light",
   "name": "homebridge-deconz-unreachable-light",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Set switch based on deconz light if reachable or not",
   "license": "Apache-2.0",
   "repository": {
@@ -21,7 +21,8 @@
     "homebridge-plugin"
   ],
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/node": "^14.14.31",
