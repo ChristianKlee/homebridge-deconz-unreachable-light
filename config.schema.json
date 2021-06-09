@@ -1,0 +1,32 @@
+{
+    "pluginAlias": "HomebridgeDeconzUnreachableLight",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "idDeconzLight": {
+                "title": "ID",
+                "type": "number",
+                "default": 0,
+                "description": "Deconz light ID"
+            },
+            "host": {
+                "title": "ID",
+                "type": "string",
+                "description": "Deconz URL"
+            },
+            "webservicePort": {
+                "title": "ID",
+                "type": "number",
+                "default": 0,
+                "description": "Deconz webservice port"
+            }
+        }
+    }
+}
